@@ -3,6 +3,7 @@
     <head>
         <title>Google Replica</title>
         <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2">
     </head>
 
     <body>
@@ -15,16 +16,35 @@
                 <button>[Profile here]</button>
             </nav>
         </header>
-        <div id="search-bar">
-            <img src="images/Google_2015_logo.svg">
-            <form action="https://www.google.com/search?q=this+feature+is+broken" method="POST">
-                <input type="text" name="search-field-entry" placeholder="Search Google or type a URL">
 
+        <img id="logo" src="images/Google_2015_logo.svg">
+        <div id="search-bar">
+            
+            <form action="https://www.google.com/search?q=this+feature+is+broken" method="POST">
+                <div class="inline-child">
+                    <img class="left-icon" src="images/search_icon.png">
+                </div>
+                <div class="inline-child">
+                    <input type="text" name="search-field-entry" placeholder="Search Google or type a URL">
+                </div>
+                <div class="inline-child">
+                    <img class="right-icon" src="images/microphone_icon.png">
+                </div>
+                <div class="inline-child">
+                    <img class="right-icon" src="images/camera_icon.png">
+                </div>
+                
+                
                 
             </form>
+            
         </div>
-        
-        <button>[Add shortcut button here]</button>
+        <button id="add-shortcut">
+            <div id="circle">
+                <p>+</p>
+            </div>
+            Add shortcut
+        </button>
         
         <footer>
             <button>Create theme with AI</button>
