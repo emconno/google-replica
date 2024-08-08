@@ -100,7 +100,7 @@ input {
 }
 
 p {
-    font-size: 32px;
+    font-size: 30px;
     position: relative;
     top: 2px;
     margin: 0;
@@ -110,3 +110,6 @@ footer {
     position: absolute;
     bottom: 5px; right: 5px;
 }
+ input:focus {
+    outline: none;
+ }
